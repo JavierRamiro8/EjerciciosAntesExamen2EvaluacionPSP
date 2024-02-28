@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ManejadorObserverTermometroThread implements Runnable {
+    private static final int THREADDORMIDO=1000; 
+    private static final int MAXGENNUM=100; 
+    
 
     public interface ObservadorThread {
 
@@ -30,8 +33,8 @@ public class ManejadorObserverTermometroThread implements Runnable {
     public void run() {
         while (true) {
             try {
-                Thread.sleep(1000);
-                temperatura=(int)(Math.random()*100);
+                Thread.sleep(THREADDORMIDO);
+                temperatura=(int)(Math.random()*MAXGENNUM);
                 notificarObservadores();
             } catch (InterruptedException e) {
                 System.out.println("No ha dormido nada este thread!!");
