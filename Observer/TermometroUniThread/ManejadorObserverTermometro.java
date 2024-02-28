@@ -1,8 +1,8 @@
-package Termometro;
+package TermometroUniThread;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class ManejadorObserverTermometro {
+public class ManejadorObserverTermometro {
 
     public interface Observador {
 

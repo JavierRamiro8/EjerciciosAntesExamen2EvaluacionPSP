@@ -1,6 +1,6 @@
-package Termometro;
+package TermometroUniThread;
 
-import Termometro.ManejadorObserverTermometro.Observador;
+import TermometroUniThread.ManejadorObserverTermometro.Observador;
 
 public class actualizadorTermometro implements Observador {
     @Override
