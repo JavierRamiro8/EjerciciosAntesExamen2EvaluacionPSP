@@ -1,6 +1,6 @@
 package Termometro;
 
-public class TermometroDigital extends EjemploObserverTermometro {
+public class TermometroDigital extends ManejadorObserverTermometro {
     public TermometroDigital(){
         super();
     }

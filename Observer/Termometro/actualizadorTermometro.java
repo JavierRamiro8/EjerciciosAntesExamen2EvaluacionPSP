@@ -1,8 +1,8 @@
 package Termometro;
 
-import Termometro.EjemploObserverTermometro.Observador;
+import Termometro.ManejadorObserverTermometro.Observador;
 
-public class ElCreadorDeLosQueEscuchan implements Observador {
+public class actualizadorTermometro implements Observador {
     @Override
     public void actualizar(int temperatura) {
         System.out.println("El termometro marca "+temperatura+"ºC");

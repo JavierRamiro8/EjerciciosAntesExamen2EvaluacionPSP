@@ -2,7 +2,7 @@ package Termometro;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class EjemploObserverTermometro {
+public abstract class ManejadorObserverTermometro {
 
     public interface Observador {
 
