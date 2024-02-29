@@ -1,0 +1,6 @@
+netcat para udp para enviar datos: nc -u IP:PUERTO
+netcat para escuchar servidor: nc -l IP:PUERTO
+-u: para conexiones UDP
+-k: reactivar la conexion automaticamente
+-l: escuchar
+
