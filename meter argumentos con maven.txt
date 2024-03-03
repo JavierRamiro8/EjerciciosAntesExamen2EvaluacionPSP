@@ -1,0 +1,1 @@
+mvn exec:java -Dexec.mainClass=com.example.App.Main -Dexec.args=" '/home/javier/EjerciciosAntesExamen2EvaluacionPSP/correos/src/main/java/com/example/archivoMensajesCorreo.txt' '/home/javier/EjerciciosAntesExamen2EvaluacionPSP/correos/src/main/java/com/example/archivoCuentaCorreos.txt' 'javier.ramiro8' 'Smr2_2021' "
