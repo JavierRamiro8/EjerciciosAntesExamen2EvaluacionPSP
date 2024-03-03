@@ -3,5 +3,10 @@
         "Observer/EjerciciosExamen/EjercicioCuadrado/EjerciciosExamen/EjercicioCuadrado",
         "Observer",
         ""
-    ]
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/usr/lib/jvm/java-18-openjdk-amd64/lib/jrt-fs.jar"
+    ],
+    "java.configuration.updateBuildConfiguration": "automatic"
 }
