@@ -1,4 +1,4 @@
-package EjerciciosExamen.LlamadaHTTP;
+package EjerciciosExamen.LlamadaHTTPThread;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -28,9 +28,7 @@ public class MainHTTP {
                 PrimosHTTP primos = new PrimosHTTP(m, n, serverSocket);
                 Logger logeado = new Logger(connCliente, m);
                 primos.agregarObservador(logeado);
-                primos.generarNumerosPrimos(n, m);
-                serverSocket.close();
-                connCliente.close();
+                new Thread(primos).start();
             } catch (IOException e) {
                 e.printStackTrace();
             }
